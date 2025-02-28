@@ -1,0 +1,116 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3E2723; /* Chocolate Brown */
+    color: rgb(73, 34, 8);
+    background: url('https://video-previews.elements.envatousercontent.com/55982de2-c688-422e-87a9-a703934273d4/watermarked_preview/watermarked_preview.mp4'); /* Add the path to your crumbled paper texture */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background in place when scrolling */
+     background-size: cover; /* Ensures the texture covers the entire screen */
+     background: url("https://video-previews.elements.envatousercontent.com/55982de2-c688-422e-87a9-a703934273d4/watermarked_preview/watermarked_preview.mp4");
+     element {
+        background: url('https://video-previews.elements.envatousercontent.com/55982de2-c688-422e-87a9-a703934273d4/watermarked_preview/watermarked_preview.mp4');
+        background-repeat: repeat; /* Repeats in both directions */
+    }
+}
+
+/* Header / Navigation Bar */
+header {
+    padding: 20px;
+    background-color: #5D4037; /* Dark Brown */
+    display: flex;
+    justify-content: space-between; /* Ensures the title is on the left and the nav links are on the right */
+    align-items: center;
+}
+
+/* Title in Navigation */
+.nav-title {
+    flex: 1; /* Takes up all available space */
+}
+
+.nav-title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px; /* Ensure there’s space on the left side */
+}
+
+/* Navigation Links Container */
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align the links to the right side */
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #361c13; /* Light Brown */
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #8D6E63; /* Light Brown */
+    padding: 20px;
+    background-color: rgba(62, 39, 35, 0.7); /* Semi-transparent overlay */
+    border-radius: 10px;
+    width: 60%; /* Limit the width of the container */
+    max-width: 600px; /* Max width for larger screens */
+}
+
+.gif {
+    width: 100%; /* Make GIF responsive */
+    height: auto;
+    border-radius: 5px;
+}
+
+.more-info {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #8D6E63; /* Light Brown */
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.more-info:hover {
+    background-color: #A1887F; /* Lighter Brown */
+}
+
+
